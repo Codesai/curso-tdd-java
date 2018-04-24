@@ -1,4 +1,4 @@
-#Context
+# Context
 Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more "fun" by introducing a "game".
 
 He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The "fun" part is that if the number is divisible by three, you instead say "Fizz" and if it is divisible by five you say "Buzz". 
@@ -10,7 +10,7 @@ So of course in order to avoid embarrassment in front of your whole class, you h
 # Goal
 Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
-#Sample output
+# Sample output
 
 	1
 	2
