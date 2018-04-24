@@ -69,10 +69,13 @@ When I order a drink and it can be delivered because of a shortage, I want to se
 ## Implementation details
 You can take advantages of the 2 services implemented by the coffee machine:
 
-    public interface EmailNotifier {
-	    void notifyMissingDrink(String drink)
-    }
+```java
+public interface EmailNotifier {
+    void notifyMissingDrink(String drink)
+}
+
+public interface BeverageQuantityChecker {
+    boolean isEmpty(String drink)
+}
+```
     
-    public interface BeverageQuantityChecker {
-	    boolean isEmpty(String drink)
-    }
