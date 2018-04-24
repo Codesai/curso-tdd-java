@@ -10,6 +10,8 @@ We want to ensure that our users' passwords have the following rules:
 # Key
 This kata shows the importance of:
 
-  - selecting good examples
-	- selecting the test order
-	- having good assertions (testing only one thing and being always true)
+  * Selecting good examples
+
+	* Selecting the test order
+	
+  * Having good assertions (testing only one thing and being always true)
