@@ -57,7 +57,7 @@ The machine is becoming popular in the office. The management is eager to have d
 ## Use cases
 - I want to be able to print a report anytime that contains: how many of each drink was sold and the total amount of money earned so far.
 
-##Implementation details
+## Implementation details
 For the reporting, you can have a repository of data with a simple data structure in memory. A simple reporting can be done by printing to the console. Of course all of that should be tested before it is written, but you know that already, don't you ? ;)
 
 # Fifth iteration - Running out
@@ -66,6 +66,7 @@ The users of the coffee machine are complaining that there is often shortages of
 Your product owner wants to you to take advantage of the machine capabilities to inform the user that there is a shortage and to send a email notification to the company so that they can come and refill the machine.
 ## Use cases
 When I order a drink and it can be delivered because of a shortage, I want to see a message to the coffee machine console that indicates me the shortage and that a notification has been sent
+
 ## Implementation details
 You can take advantages of the 2 services implemented by the coffee machine:
 
@@ -78,4 +79,3 @@ public interface BeverageQuantityChecker {
     boolean isEmpty(String drink)
 }
 ```
-    
