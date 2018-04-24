@@ -12,6 +12,6 @@ This kata shows the importance of:
 
   * Selecting good examples
 
-	* Selecting the test order
+  * Selecting the test order
 	
   * Having good assertions (testing only one thing and being always true)
