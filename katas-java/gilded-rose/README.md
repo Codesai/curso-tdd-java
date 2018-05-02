@@ -43,4 +43,4 @@ Important files
 - Code: GildedRose (and Item)
 - Sample of execution: TexttestFixtures
 
-[Sample of test solution](https://raw.githubusercontent.com/luisrovirosa/GildedRose-Refactoring-Kata/java-resolution/Java/com/gildedrose/GildedRoseTest.java)
+[Possible tests solution](https://gist.githubusercontent.com/trikitrok/c42067570fdd3b11cfcef28f3513d9ad/raw/c7d37834fdc2982318d80f3677a7dc0c15714395/GildedRoseTest.java)
