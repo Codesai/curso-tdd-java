@@ -1,4 +1,4 @@
-Kata Objective
+Goal
 ======================================
 Add the new requirement, the item "Conjured" in a difficult to maintain code.
 
