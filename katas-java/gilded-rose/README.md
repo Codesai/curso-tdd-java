@@ -37,10 +37,4 @@ Feel free to make any changes to the UpdateQuality method and add any new code a
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
 
-Important files
-==
-- Tests file: GildedRoseTest
-- Code: GildedRose (and Item)
-- Sample of execution: TexttestFixtures
-
 [Possible tests solution](https://gist.githubusercontent.com/trikitrok/c42067570fdd3b11cfcef28f3513d9ad/raw/c7d37834fdc2982318d80f3677a7dc0c15714395/GildedRoseTest.java)
