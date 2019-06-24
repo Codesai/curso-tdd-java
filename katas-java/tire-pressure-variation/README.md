@@ -10,7 +10,7 @@ Be able to test `Alarm`'s `check` function without changing the method signature
 ## Tools
 [Mockito](http://mockito.org/)
 
-### Example of mock
+### Example of spy
 ```java
 @Test
 public void should_interact_with_the_mock() {
