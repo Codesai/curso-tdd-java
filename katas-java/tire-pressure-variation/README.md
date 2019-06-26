@@ -10,10 +10,26 @@ Be able to test `Alarm`'s `check` function without changing the method signature
 ## Tools
 [Mockito](http://mockito.org/)
 
-### Example of spy
+### Example of spying an interaction
 ```java
+interface Collaborator {
+  void collaborate();
+}
+
+class MyClass {
+  private final Collaborator collaborator;
+
+  public MyClass(Collaborator collaborator) {
+    this.collaborator = collaborator;
+  }
+
+  public void run() {
+    collaborator.collaborate();
+  }
+}
+
 @Test
-public void should_interact_with_the_mock() {
+public void example_of_spying_an_interaction() {
   Collaborator collaborator = mock(Collaborator.class);
   MyClass myClass = new MyClass(collaborator);
 
@@ -23,11 +39,27 @@ public void should_interact_with_the_mock() {
 }
 ```
 
-### Example of stub
+### Example of stubbing an interaction
 
 ```java
+interface Collaborator {
+  String collaborate();
+}
+
+class MyClass {
+  private final Collaborator collaborator;
+
+  public MyClass(Collaborator collaborator) {
+    this.collaborator = collaborator;
+  }
+
+  public String run() {
+    return collaborator.collaborate();
+  }
+}
+
 @Test
-public void should_retrieve_the_stub_response(){
+public void example_of_stubbing_an_interaction() {
   Collaborator collaborator = mock(Collaborator.class);
   String collaboratorResponse = "some response";
   when(collaborator.collaborate()).thenReturn(collaboratorResponse);
