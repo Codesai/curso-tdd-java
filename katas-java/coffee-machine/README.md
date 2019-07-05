@@ -73,10 +73,10 @@ You can take advantages of the 2 services implemented by the coffee machine:
 
 ```java
 public interface EmailNotifier {
-    void notifyMissingDrink(String drink)
+    void notifyMissingDrink(String drink);
 }
 
 public interface BeverageQuantityChecker {
-    boolean isEmpty(String drink)
+    boolean isEmpty(String drink);
 }
 ```
