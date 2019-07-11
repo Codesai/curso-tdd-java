@@ -34,7 +34,7 @@
                         <targetClass>password_validation.PasswordValidator</targetClass>
                     </targetClasses>
                     <targetTests>
-                        <targetTest>password_validation.unit_test.*</targetTest>
+                        <targetTest>password_validation.*</targetTest>
                     </targetTests>
                     <avoidCallsTo>
                         <avoidCallsTo>java.util.logging</avoidCallsTo>
