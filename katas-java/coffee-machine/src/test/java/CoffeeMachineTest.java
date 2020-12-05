@@ -1,13 +1,11 @@
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
 
 public class CoffeeMachineTest {
 
-    @Test
-    public void fix_me_and_rename_me(){
-        assertTrue(false);
-    }
-
-
+  @Test
+  public void fix_me_and_rename_me() {
+    assertTrue(false);
+  }
 }
