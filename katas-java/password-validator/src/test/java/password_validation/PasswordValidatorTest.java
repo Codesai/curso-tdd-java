@@ -1,14 +1,13 @@
 package password_validation;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
-import static org.junit.Assert.assertFalse;
+import org.junit.jupiter.api.Test;
 
 public class PasswordValidatorTest {
 
-	@Test
-	public void fix_me_and_rename() {
-		assertFalse(true);
-	}
-
+  @Test
+  public void fix_me_and_rename() {
+    assertFalse(true);
+  }
 }
