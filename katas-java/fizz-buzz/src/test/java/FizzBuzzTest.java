@@ -1,7 +1,6 @@
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
 
@@ -9,5 +8,4 @@ public class FizzBuzzTest {
 	public void fix_me_and_rename_me() {
 		assertTrue(false);
 	}
-
 }
