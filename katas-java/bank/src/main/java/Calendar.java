@@ -1,5 +1,5 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public interface Calendar {
-    Date currentDate();
+    LocalDate currentDate();
 }
