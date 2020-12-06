@@ -5,14 +5,13 @@ import static org.mockito.Mockito.when;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import java.text.ParseException;
 import java.time.LocalDate;
 
 public class AcceptanceTest {
 
   @Test
   @Disabled
-  public void should_print_statement_containing_all_transactions() throws ParseException {
+  public void should_print_statement_containing_all_transactions() {
     Console console = mock(Console.class);
     Calendar calendar = mock(Calendar.class);
     when(calendar.currentDate()).thenReturn(
