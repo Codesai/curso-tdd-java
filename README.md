@@ -12,6 +12,9 @@ Kata to practice the importance of the test order.
 ## [Tire Pressure Variation](katas-java/tire-pressure-variation/)
 Refactoring kata to start practicing with test doubles (spies and stubs).
 
+## [Birthday Greetings](katas-java/birthday-greetings/)
+Kata to continue exploring test doubles (spies and stubs).
+
 ## [Coffee Machine](katas-java/coffee-machine/)
 Good kata to learn Outside-in TDD with test doubles
 
