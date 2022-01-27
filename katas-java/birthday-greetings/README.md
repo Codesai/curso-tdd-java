@@ -1,4 +1,4 @@
-# Tire Pressure Monitoring System Variation
+# Birthday Greetings Service Kata Variation
 
 ## Goal
 Create a _BirthdayGreetingsService_ with a _greet_ method to greet all the users of your company for its birthday. The method shall
