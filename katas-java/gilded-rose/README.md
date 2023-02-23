@@ -41,8 +41,8 @@ Just for clarification, an item can never have its Quality increase above 50, ho
 
 Click on `maven` tab in your IDE or run these commands:
 
-`$ mvn org.pitest:pitest-maven:1.5.2:mutationCoverage`
+`$ mvn test`
 
-`$ mvn org.pitest:pitest-maven:1.5.2:report`
+`$ mvn org.pitest:pitest-maven:1.5.2:mutationCoverage`
 
 `$ firefox target/pit-reports/`
