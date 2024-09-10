@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.is;
 public class DiscountTest {
 
     @Test
-    public void Fix_Me() {
+    public void fix_me() {
         var discount = new Discount();
 
         var net = Money.amount(110);
