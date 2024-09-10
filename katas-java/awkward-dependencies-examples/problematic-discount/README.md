@@ -3,7 +3,7 @@
 ## Goal
 Recognizing awkward dependencies (FIRS violations).
 
-1. Examine the code and the tests that are disabled. 
+1. Examine the code and the tests. 
 
    a. What's the problem with the existing test?
 
