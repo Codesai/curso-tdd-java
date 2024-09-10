@@ -1,3 +1,5 @@
+package unit_tests;
+
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
