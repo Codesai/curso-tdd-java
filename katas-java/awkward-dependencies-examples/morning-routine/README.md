@@ -1,7 +1,7 @@
 # Morning Routine example
 
 ## Goal
-Recognizing FIRS violations.
+Recognizing awkward dependencies (FIRS violations).
 
 1. Examine the code and identify which violations of FIRS made it not unit-testable.
 

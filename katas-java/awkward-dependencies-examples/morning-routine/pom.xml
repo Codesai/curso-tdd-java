@@ -57,7 +57,7 @@
         </dependencies>
         <configuration>
           <targetClasses>
-            <targetClass>morning-routine.Alarm</targetClass>
+            <targetClass>morningroutine.MyMorningRoutine</targetClass>
           </targetClasses>
           <targetTests>
             <targetTest>unit_tests.AlarmTest</targetTest>
