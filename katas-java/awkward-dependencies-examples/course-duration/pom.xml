@@ -60,7 +60,7 @@
             <targetClass>course_duration.Course</targetClass>
           </targetClasses>
           <targetTests>
-            <targetTest>unit_tests.AlarmTest</targetTest>
+            <targetTest>unit_tests.CourseTest</targetTest>
           </targetTests>
           <avoidCallsTo>
             <avoidCallsTo>java.util.logging</avoidCallsTo>

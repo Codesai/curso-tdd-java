@@ -60,7 +60,7 @@
             <targetClass>problematic_discount.Discount</targetClass>
           </targetClasses>
           <targetTests>
-            <targetTest>unit_tests.AlarmTest</targetTest>
+            <targetTest>unit_tests.DiscountTest</targetTest>
           </targetTests>
           <avoidCallsTo>
             <avoidCallsTo>java.util.logging</avoidCallsTo>
