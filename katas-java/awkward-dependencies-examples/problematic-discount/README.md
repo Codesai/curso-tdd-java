@@ -5,7 +5,7 @@ Recognizing awkward dependencies (FIRS violations).
 
 1. Examine the code and the tests that are disabled. 
 
-   a. Can you write those disabled unit tests?
+   a. What's the problem with the existing test?
 
    b. If not, identify which violations of FIRS make the code not unit-testable.
 
