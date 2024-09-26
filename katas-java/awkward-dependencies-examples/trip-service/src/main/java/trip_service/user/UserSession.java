@@ -1,6 +1,11 @@
 package trip_service.user;
 
-import trip_service.exceptions.AwkwardDependencyException;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 public class UserSession {
 
@@ -14,10 +19,22 @@ public class UserSession {
     }
 
     public User getLoggedUser() {
-        //  It gets a logged User from the session.
-        // This shouldn't be executed in a unit test.
-        // We throw an exception instead to avoid complicating the example with the real implementation code.
-        throw new AwkwardDependencyException("UserSession.getLoggedUser() should not be called in an unit test");
+        try {
+            var client = HttpClient.newHttpClient();
+            var request = HttpRequest.newBuilder()
+                    .uri(new URI("https://trip-service.nanana/client-2038/logged-user/"))
+                    .GET()
+                    .build();
+            var response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            var name = response.body();
+            if (name != null) {
+                return new User(name);
+            }
+            return null;
+        } catch (URISyntaxException | IOException | InterruptedException e) {
+            throw new RuntimeException("Unable to recover session", e);
+        }
     }
+
 }
 
