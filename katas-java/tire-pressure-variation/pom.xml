@@ -46,29 +46,26 @@
       <plugin>
         <groupId>org.pitest</groupId>
         <artifactId>pitest-maven</artifactId>
-        <version>1.5.2</version>
+        <version>1.15.2</version>
         <dependencies>
           <dependency>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-junit5-plugin</artifactId>
-            <version>0.12</version>
+            <version>1.2.1</version>
           </dependency>
         </dependencies>
         <configuration>
+          <mutators>
+            <mutator>ALL</mutator>
+          </mutators>
           <targetClasses>
-            <targetClass>tirepressuremonitoringsystem.Alarm</targetClass>
+            <param>tirepressuremonitoringsystem.Alarm</param>
           </targetClasses>
           <targetTests>
-            <targetTest>unit_tests.AlarmTest</targetTest>
+            <param>unit_tests.AlarmTest</param>
           </targetTests>
-          <avoidCallsTo>
-            <avoidCallsTo>java.util.logging</avoidCallsTo>
-            <avoidCallsTo>org.apache.log4j</avoidCallsTo>
-            <avoidCallsTo>org.slf4j</avoidCallsTo>
-            <avoidCallsTo>org.apache.commons.logging</avoidCallsTo>
-          </avoidCallsTo>
           <verbose>false</verbose>
-          <threads>3</threads>
+          <!--threads>3</threads-->
         </configuration>
       </plugin>
     </plugins>
