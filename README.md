@@ -1,22 +1,22 @@
 # Katas
 
-## [Fizz Buzz](katas-java/fizz-buzz/)
-Good kata to start doing TDD
+## Fizz Buzz
+Good kata to start doing TDD.
 
-## [Gilded Rose](katas-java/gilded-rose/)
-Refactoring kata
+## Password validator
+Kata to practice the importance of examples list and test order.
 
-## [Password validator](katas-java/password-validator/)
-Kata to practice the importance of the test order.
+## Argent Rose
+Kata to practice TDD heuristics.
 
-## [Tire Pressure Variation](katas-java/tire-pressure-variation/)
-Refactoring kata to start practicing with test doubles (spies and stubs).
+## Tire Pressure Variation
+Refactoring kata to practice TDD with test doubles.
 
-## [Birthday Greetings](katas-java/birthday-greetings/)
-Kata to continue exploring test doubles (spies and stubs).
+## Coffee Machine
+Good kata to practice TDD with test doubles.
 
-## [Coffee Machine](katas-java/coffee-machine/)
-Good kata to learn Outside-in TDD with test doubles
+## Bank
+Good kata to practice TDD with test doubles.
 
-## [Bank](katas-java/bank/)
-Good kata to learn Outside-in TDD with test doubles
+## Awkward dependencies examples.
+Exercises to detect violations of FIRS (side-effects and sources of non determinism).
