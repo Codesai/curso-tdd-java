@@ -1,21 +1,20 @@
 # Tire Pressure Monitoring System Variation
 
-## Goal
-Be able to test `Alarm`'s `check` function without changing the method signature.
+[Requirements](https://gist.github.com/trikitrok/e0dccffff284511e736a53a59d853e31)
 
-1. Test the code using test doubles created by you.
-
-2. Test the code using test doubles created with a library.
-
-## Tools
-[Mockito](http://mockito.org/)
-
-## Learnings
-How to build a Spy and a Stub manually.
-
-How to use Mockito to generate the test doubles.
-
-## References
+### References
 
 Based on an exercise from [Luca Minudel](https://twitter.com/lukadotnet?lang=en)'s [TDD with Mock Objects And Design Principles exercises](https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples)
 
+
+### Constraints.
+
+Aside from its constructor this is the only public method of the `Alarm` class:
+
+`void check()`
+
+`Alarm` cannot have any accessor methods to see its state, and all its fields must be private.
+
+### Tools
+
+[Use of test doubles with Mockito](https://gist.github.com/trikitrok/1573df976f090f46f3b188646de8b3be)
