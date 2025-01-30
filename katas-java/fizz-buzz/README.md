@@ -25,16 +25,3 @@ Write a program that returns the numbers from 1 to 100. But for multiples of thr
 	19
 	Buzz
 	... etc up to 100
-
-
-# Stop reading until you have developed this part
-
-# New requirements
-
- - A number is Fizz if it has a 3 in it
- - A number is Buzz if it has a 5 in it
- - A number is FizzBuzz if
- 	- it has a 3 in it
- 	- it has a 5 in it
-
- - The previous requirements are still correct.
