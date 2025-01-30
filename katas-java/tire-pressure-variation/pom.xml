@@ -58,12 +58,6 @@
           <mutators>
             <mutator>ALL</mutator>
           </mutators>
-          <targetClasses>
-            <param>tirepressuremonitoringsystem.Alarm</param>
-          </targetClasses>
-          <targetTests>
-            <param>unit_tests.AlarmTest</param>
-          </targetTests>
           <verbose>false</verbose>
           <!--threads>3</threads-->
         </configuration>
