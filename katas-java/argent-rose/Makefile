@@ -5,7 +5,7 @@ mutant-tests: ## run mutation tests
 	mvn test-compile org.pitest:pitest-maven:mutationCoverage
 
 mutant-report: ## show mutation tests report
-	firefox target/pit-reports/
+	firefox target/pit-reports/index.html
 
 coverage: ## run coverage tests 
 	mvn clean test jacoco:report
