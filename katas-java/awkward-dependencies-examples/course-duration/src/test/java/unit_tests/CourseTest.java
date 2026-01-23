@@ -1,7 +1,6 @@
 package unit_tests;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import course_duration.Course;
 import org.junit.jupiter.api.BeforeEach;
@@ -22,7 +21,7 @@ public class CourseTest {
         course.start();
         course.end();
 
-        assertThat(course.isShort(), is(true));
+        assertThat(course.isShort()).isEqualTo(true);
     }
 
     @Test
