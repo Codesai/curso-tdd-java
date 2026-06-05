@@ -1,0 +1,11 @@
+Observable Behavior:
+
+Input: 
+Output:
+
+Smaller Behaviors:
+ 
+
+Examples:
+
+[] input => output
