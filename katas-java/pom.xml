@@ -20,6 +20,7 @@
         <module>awkward-dependencies-examples</module>
         <module>birthday-greetings</module>
         <module>coffee-machine</module>
+        <module>final-price-calculation</module>
         <module>fizz-buzz</module>
         <module>inspiration-of-the-day</module>
         <module>luhn-test</module>
